@@ -1,0 +1,48 @@
+header{
+	width: 100%;
+	box-sizing: border-box;
+	background: #3F51B5;
+	box-shadow: 0 0 32px rgba(0,0,0,0.5);
+	z-index: 5;
+}
+
+.top-bar{
+	padding: 16px;
+}
+.top-bar span{
+	font-size: 1.3em;
+	color: white;
+	letter-spacing: -10px;
+}
+h1{
+	display: inline-block;
+	color: #fff;
+	font-size: 1.4em;
+	margin-left: 48px;
+}
+header img{
+	width: 24px;
+	height: 24px;
+	float: right;
+	filter: invert();
+}
+
+header ul{
+	width: 100%;
+	box-sizing: border-box;
+}
+header li{
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+}
+header li a{
+	display: block;
+	text-decoration: none;
+	padding: 15px 0;
+	color: white;
+	font-weight: bold;
+}
+header li a.active{
+	border-bottom: 4px solid white;
+}
